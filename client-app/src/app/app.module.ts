@@ -5,14 +5,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ToDoComponent } from './to-do/to-do.component';
-import { FilterPipe } from './filter.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ContactComponent } from './contact/contact.component';
+import { MyworksComponent } from './myworks/myworks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToDoComponent,
-    FilterPipe
+    NavbarComponent,
+    AboutMeComponent,
+    ContactComponent,
+    MyworksComponent
   ],
   imports: [
     BrowserModule,

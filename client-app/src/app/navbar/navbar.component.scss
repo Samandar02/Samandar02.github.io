@@ -1,0 +1,19 @@
+@import '../../styles/abstracts';
+
+.navbar {
+    .nav-items {
+        font-weight: 900;
+        text-align: center;
+        font-size: x-large;
+        ul{
+            li{
+                padding: 8px 18px;
+                display: inline-block;
+
+            }
+        }
+        .active{
+            color: $almostWhite;
+        }
+    }
+}
