@@ -1,0 +1,15 @@
+<div class="selector-nav">
+    <ul>
+        I Use these technology for
+        <li (click)="select('be')">Back End</li>
+        <li (click)="select('fe')">Front End</li>
+        <li (click)="select('t')">Tools</li>
+    </ul>
+</div>
+<div class="selector-content">
+    <ul>
+        <li [@onActive]="item.isActive" [ngClass]="item.isActive?'active':''" *ngFor="let item of data|separate:selected">
+            {{item.tool}}
+        </li>
+    </ul>
+</div>

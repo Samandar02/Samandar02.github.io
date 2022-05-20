@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    h1{
+        margin-bottom: 25px;
+    }
+    p{
+        padding: 0 30px;
+        word-spacing: 10px;
+        line-height: 35px;
+    }
+    img {
+        width: 500px;
+    }
+    #vawe{
+        position: relative;
+        top: -90px;
+    }
+}
+.mto{
+    margin-top: 60px;
+}

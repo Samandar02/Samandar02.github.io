@@ -9,6 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { MyworksComponent } from './myworks/myworks.component';
+import { SelectorComponent } from './selector/selector.component';
+import { SeparatePipe } from './separate.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { MyworksComponent } from './myworks/myworks.component';
     NavbarComponent,
     AboutMeComponent,
     ContactComponent,
-    MyworksComponent
+    MyworksComponent,
+    SelectorComponent,
+    SeparatePipe,
   ],
   imports: [
     BrowserModule,

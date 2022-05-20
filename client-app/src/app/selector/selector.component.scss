@@ -1,0 +1,51 @@
+@import '../../styles/abstracts';
+.selector-nav{
+    padding-top: 18px;
+    ul{
+        padding: 5px 18px;
+        background-color: rgb(75, 75, 75);
+        border-radius: 12px 12px 0 0;
+        color: $almostWhite;
+        li{
+            color: $almostWhite;
+            border: 1px solid $almostWhite;
+            margin: 3px 24px;
+            border-radius: 6px;
+            display: inline-block;
+            padding: 5px 10px;
+            user-select: none;
+            cursor: pointer;
+            transition: all .3s ease-out;
+            &:hover{
+                color: rgb(75, 75, 75);
+                background-color: $almostWhite;
+                border: 1px solid $almostWhite;
+            }
+        }
+    }
+
+}
+.selector-content{
+    transform: all .3s;
+    ul{
+        transform: all .3s;
+        padding: 5px 18px;
+        border:3px solid rgb(75, 75, 75);
+        transform: translateY(-5px);
+        border-radius: 0 0 12px 12px;
+        li{
+            transform: all .3s;
+            margin: 12px;
+            display: inline-block;
+            padding: 5px 10px;
+            user-select: none;
+            cursor: pointer;
+            border: 1px solid rgb(75, 75, 75);
+            border-radius: 6px;
+        }
+        .active{
+            background-color: rgb(75, 75, 75);
+            color: $almostWhite;
+        }
+    }
+}
