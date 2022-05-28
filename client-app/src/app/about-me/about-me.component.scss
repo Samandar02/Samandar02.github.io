@@ -1,20 +1,41 @@
+@import '../../styles/abstracts';
 .container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    .col60{
+        width: 60%;
+        
+    }
+    .col40{
+        width: 40%;
+        
+    }
     h1{
         margin-bottom: 25px;
+        
     }
     p{
         padding: 0 30px;
         word-spacing: 10px;
         line-height: 35px;
     }
-    img {
-        width: 500px;
-    }
-    #vawe{
+    .img-content{
         position: relative;
-        top: -90px;
+        max-width: 512px;
+        width: 100%;
+        min-width: 310px;
+        img {
+            position: absolute;  
+            width: 100%;
+        }
+        #vawe{
+            position: absolute;
+            width: 100%;
+            top: auto;
+            bottom: 0;
+        }
     }
 }
 .mto{

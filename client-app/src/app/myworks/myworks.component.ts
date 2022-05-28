@@ -32,7 +32,7 @@ export class MyworksComponent implements OnInit {
       description: "Interactive and Responsive To do app build with Angular, Sass this site see beautifull with Angular Animation",
     },
     {
-      imgUrl: "https://github.com/Samandar02/marvis-ui/blob/master/img/hero-wlapper.jpg",
+      imgUrl: "https://github.com/Samandar02/marvis-ui/blob/master/img/hero-wlapper.jpg?raw=true",
       liveUrl: "https://marvistrucks.netlify.app",
       repoUrl: "https://github.com/Samandar02/marvis-ui",
       title: "Marvis",
@@ -46,18 +46,25 @@ export class MyworksComponent implements OnInit {
       description: "Google Clone is created for sass and angular practice",
     },
     {
-      imgUrl: "none",
+      imgUrl: "https://www.kindpng.com/picc/m/239-2394224_collaboration-solutions-advantage-of-the-employee-management-system.png",
       liveUrl: "none",
       repoUrl: "https://github.com/Samandar02/EMS.Backend",
       title: "Employee managment system api",
       description: "Employee managment system api for practice .Net Core api with aothorization",
     },
     {
-      imgUrl: "none",
+      imgUrl: "https://1.bp.blogspot.com/--N26aRZdGGM/X3w1K1Ua5aI/AAAAAAAAA6U/CAW__gnZGAwwhtESQ8nIaM5e-vBrXRhzwCLcBGAsYHQ/s1280/Create%2Ba%2BQuiz%2BApp%2Bwith%2BTimer%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp",
       liveUrl: "none",
       repoUrl: "https://github.com/Samandar02/Quiz-App",
       title: "Quiz app",
       description: "Quiz app for practice .Net Core api and Angular with aothorization app. on this site users could make a quiiz then quiz, and other people could play them",
+    },
+    {
+      imgUrl: "https://github.com/Samandar02/Loopstudios-Landing-UI/blob/master/design/desktop-design.jpg?raw=true",
+      liveUrl: "none",
+      repoUrl: "https://github.com/Samandar02/Loopstudios-Landing-UI",
+      title: "Loopstudios",
+      description: "Loopstudios app for practice sass. on this site users could pay technical things",
     },
   ]
   ngOnInit(): void {
