@@ -3,18 +3,18 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-    .col60{
-        width: 60%;
-        
-    }
-    .col40{
-        width: 40%;
-        
-    }
+
     h1{
         margin-bottom: 25px;
         
+    }
+    .col60{
+        width: 60%;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .col40{
+        width: 40%;
     }
     p{
         padding: 0 30px;
@@ -27,14 +27,13 @@
         width: 100%;
         min-width: 310px;
         img {
-            position: absolute;  
             width: 100%;
+            display:inline-block;
         }
         #vawe{
             position: absolute;
-            width: 100%;
-            top: auto;
             bottom: 0;
+            left: 0;
         }
     }
 }
