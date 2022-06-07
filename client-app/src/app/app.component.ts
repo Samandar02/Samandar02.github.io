@@ -5,7 +5,7 @@ import { Animations } from './animations/animations';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  animations:[Animations.routerNavigation]
+  animations:[Animations.routerNavigation,Animations.footerAnimation]
 })
 export class AppComponent {
   ngOnInit(){

@@ -6,13 +6,21 @@
         background-color: rgb(75, 75, 75);
         border-radius: 12px 12px 0 0;
         color: $almostWhite;
+        .inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         li{
+            
+            width: 100px;
+            height: 35px;
             color: $almostWhite;
             border: 1px solid $almostWhite;
-            margin: 3px 24px;
+            margin: 3px 9px;
             border-radius: 6px;
             display: inline-block;
-            padding: 5px 10px;
+            padding-top: 5px;
             user-select: none;
             cursor: pointer;
             transition: all .3s ease-out;

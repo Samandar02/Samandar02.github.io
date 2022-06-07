@@ -1,4 +1,7 @@
 <app-navbar></app-navbar>
-    <main [@navigate]="getState(o)">
-        <router-outlet #o="outlet"></router-outlet>
-      </main>
+<main [@navigate]="getState(o)">
+  <router-outlet #o="outlet"></router-outlet>
+</main>
+<div @footer class="footer">
+  <p>Made with my . </p><img src="https://img.icons8.com/emoji/48/undefined/red-heart.png"/>
+</div>

@@ -2,6 +2,16 @@ import { trigger, state, style, transition, animate, query, group } from '@angul
 
 
 export const Animations = {
+    footerAnimation:trigger('footer',[
+        transition(':enter', [
+            style({
+                'opacity': '0',
+            }),
+            animate(5000, style({
+                'opacity': '1',
+            }))
+        ])
+    ]),
     navbarTrigger: trigger('entering', [
         transition(':enter', [
             style({

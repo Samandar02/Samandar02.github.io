@@ -2,19 +2,39 @@
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-
+    
+    @include responsive(t){
+        flex-direction: column;
+    }
     h1{
         margin-bottom: 25px;
-        
+        min-width: 280px;
+    }
+    p{
+        min-width: 280px;
     }
     .col60{
-        width: 60%;
+        width: 50%;
+        @include responsive(t){
+            width: 90%;
+        }
         display: inline-flex;
         flex-direction: column;
     }
-    .col40{
+    .col50{
         width: 40%;
+        @include responsive(t){
+            width: 90%;
+        }
+        width: 60%;
+    }
+    .col40{
+        width: 30%;
+        @include responsive(t){
+            width: 90%;
+        }
     }
     p{
         padding: 0 30px;

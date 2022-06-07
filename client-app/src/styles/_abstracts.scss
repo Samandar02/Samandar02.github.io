@@ -7,10 +7,10 @@ $almostBlack:rgb(46, 46, 46);
         @media (max-width:425px) {@content;}
     };
     @if($type == t){
-        @media (max-width:768px) and (min-width:456px) {@content;}
+        @media (max-width:768px)  {@content;}
     };
     @if($type == l){
-        @media (max-width:1024px) and (min-width:769px) {@content;}
+        @media (max-width:1024px)  {@content;}
     };
     @if($type == d){
         @media (min-width:1025px) {@content;}
