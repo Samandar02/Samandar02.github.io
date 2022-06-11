@@ -18,11 +18,11 @@ export class MyworksComponent implements OnInit {
       description: "Relab UI e-commerce system. this site build for pracitse Sass",
     },
     {
-      imgUrl: "https://github.com/Samandar02/frontendmentor/raw/master/intro-section-with-dropdown-navigation-main/design/desktop-preview.jpg",
-      liveUrl: "https://playful-lebkuchen-507473.netlify.app/",
-      repoUrl: "https://github.com/Samandar02/frontendmentor/tree/master/intro-section-with-dropdown-navigation-main",
-      title: "snap Freelance",
-      description: "snap simple Freelance webpage design from frontentmentor challange. This site build with a static page and sass for practice uncompleted:)",
+      imgUrl: "https://github.com/Samandar02/marvis-ui/blob/master/img/hero-wlapper.jpg?raw=true",
+      liveUrl: "https://marvistrucks.netlify.app",
+      repoUrl: "https://github.com/Samandar02/marvis-ui",
+      title: "Marvis",
+      description: "Marvis Trucks is responsive and interactive design. this web site building for sass practice",
     },
     {
       imgUrl: "https://github.com/Samandar02/frontendmentor/raw/master/todo-app-main/todo-app.gif",
@@ -32,11 +32,11 @@ export class MyworksComponent implements OnInit {
       description: "Interactive and Responsive To do app build with Angular, Sass this site see beautifull with Angular Animation",
     },
     {
-      imgUrl: "https://github.com/Samandar02/marvis-ui/blob/master/img/hero-wlapper.jpg?raw=true",
-      liveUrl: "https://marvistrucks.netlify.app",
-      repoUrl: "https://github.com/Samandar02/marvis-ui",
-      title: "Marvis",
-      description: "Marvis Trucks is responsive and interactive design. this web site building for sass practice",
+      imgUrl: "https://github.com/Samandar02/frontendmentor/raw/master/intro-section-with-dropdown-navigation-main/design/desktop-preview.jpg",
+      liveUrl: "https://playful-lebkuchen-507473.netlify.app/",
+      repoUrl: "https://github.com/Samandar02/frontendmentor/tree/master/intro-section-with-dropdown-navigation-main",
+      title: "snap Freelance",
+      description: "snap simple Freelance webpage design from frontentmentor challange. This site build with a static page and sass for practice uncompleted:)",
     },
     {
       imgUrl: "https://github.com/Samandar02/google-clone/raw/master/example.gif",
