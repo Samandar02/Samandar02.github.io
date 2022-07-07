@@ -1,5 +1,11 @@
+@import './abstracts';
+
 .container{
     width: 90%;
+
     margin: auto;
     text-align: center;
+    @include responsive(t){
+        width: 100%;
+    }
 }

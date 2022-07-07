@@ -2,6 +2,46 @@
 
 .container{
     padding-top:150px;
+    form div{
+       margin: 12px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        flex-direction: column;
+        label{
+            margin-top: 12px;
+        }
+        input{
+            opacity: .5;
+            outline: 0;
+            border: 0;
+            width: 35%;
+            height: 30px;
+            margin: 0 12px;
+            @include responsive(t){
+                width: 90%;
+            }
+        }
+        textarea{
+            width: 35%;
+            height: 100px;
+            opacity: .5;
+            outline: 0;
+            border: 0;
+            padding: 6px;
+            @include responsive(t){
+                width: 90%;
+            }
+        }
+    }
+    input[type="submit"]{
+        width: 35%;
+        height: 30px;
+        display: inline-block;
+        @include responsive(t){
+            width: 90%;
+        }
+    }
 }
 .context{
     @include responsive(t){

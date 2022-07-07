@@ -10,6 +10,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @include responsive(t){
+                font-size: smaller;
+            }
         }
         li{
             
@@ -43,7 +46,10 @@
         border-radius: 0 0 12px 12px;
         li{
             transform: all .3s;
-            margin: 12px;
+            margin: 8px;
+            @include responsive(t){
+                margin: 2px;
+            }
             display: inline-block;
             padding: 5px 10px;
             user-select: none;
