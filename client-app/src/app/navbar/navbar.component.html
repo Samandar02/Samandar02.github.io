@@ -1,4 +1,6 @@
 <div class="navbar" @entering >
+    <input (click)="toggle()" type="checkbox">
+    <span> </span>
     <div class="nav-items">
         <ul>
             <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact:true }">About Me</a></li>

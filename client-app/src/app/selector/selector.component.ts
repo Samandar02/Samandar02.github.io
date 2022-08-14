@@ -1,7 +1,7 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
 import { Animations } from '../animations/animations';
-import { SelectorData } from '../models';
+import { SelectorData } from '../pipes/models';
 
 @Component({
   selector: 'app-selector',

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { Animations } from '../animations/animations';
 
 @Component({
@@ -9,8 +9,11 @@ import { Animations } from '../animations/animations';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() {
+   }
+   toggle(){
+    document.querySelector('.nav-items')?.classList.toggle('show')
+   }
   ngOnInit(): void {
   }
 

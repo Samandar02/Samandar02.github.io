@@ -18,7 +18,7 @@ export const Animations = {
                 'opacity': '0',
                 'transform': 'translateY(-100px)'
             }),
-            animate(1000, style({
+            animate('0.5s cubic-bezier(0.42,-0.47, 0.11, 1.89)', style({
                 'opacity': '1',
                 'transform': 'translateY(0)'
             }))

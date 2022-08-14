@@ -1,7 +1,7 @@
 import { animate, query, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { Animations } from '../animations/animations';
-import { SelectorData } from '../models';
+import { SelectorData } from '../pipes/models';
 
 @Component({
   selector: 'app-about-me',

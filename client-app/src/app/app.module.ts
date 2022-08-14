@@ -10,7 +10,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { MyworksComponent } from './myworks/myworks.component';
 import { SelectorComponent } from './selector/selector.component';
-import { SeparatePipe } from './separate.pipe';
+import { SeparatePipe } from './pipes/separate.pipe';
 
 @NgModule({
   declarations: [
