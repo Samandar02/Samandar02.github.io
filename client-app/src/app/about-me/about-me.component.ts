@@ -22,23 +22,25 @@ export class AboutMeComponent implements OnInit {
     { tool: "Css", key: "fe", isActive: false },
     { tool: "C#", key: "be", isActive: false },
     { tool: "Type Script", key: "fe", isActive: false },
+    { tool: "Firebase", key: "t", isActive: false },
     { tool: "HTML", key: "fe", isActive: false },
     { tool: "Ado.Net", key: "be", isActive: false },
     { tool: "MS SQL", key: "be", isActive: false },
-    { tool: "Git", key: "t", isActive: false },
+    { tool: "Git CLI", key: "t", isActive: false },
     { tool: "Angular", key: "fe", isActive: false },
     { tool: "Sass", key: "t", isActive: false },
     { tool: "Sql Server Managment Studio", key: "t", isActive: false },
     { tool: "Java Script", key: "fe", isActive: false },
     { tool: "JWT", key: "t", isActive: false },
     { tool: "API", key: "t", isActive: false },
-    { tool: "JSON", key: "t", isActive: false },
+    { tool: "Postman", key: "t", isActive: false },
     { tool: "ASP.Net Core MVC/Api", key: "be", isActive: false },
     { tool: "Sass", key: "fe", isActive: false },
     { tool: "Entity Framework Core", key: "be", isActive: false },
-    { tool: "IIS Express", key: "t", isActive: false },
+    { tool: "IIS", key: "t", isActive: false },
   ]
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
