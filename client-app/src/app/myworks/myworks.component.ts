@@ -11,6 +11,13 @@ export class MyworksComponent implements OnInit {
   constructor() { }
   myWorks = [
     {
+      imgUrl: "assets/haircutteam.png",
+      liveUrl: "https://haircutteam.netlify.app/",
+      repoUrl: "https://github.com/Samandar02/haircut",
+      title: "Haircut Team",
+      description: "Haircut team portfolio.",
+    },
+    {
       imgUrl: "https://github.com/Samandar02/Relab-ui/raw/master/responsive-laptop.gif",
       liveUrl: "https://relab.netlify.app",
       repoUrl: "https://github.com/Samandar02/Relab-ui",
