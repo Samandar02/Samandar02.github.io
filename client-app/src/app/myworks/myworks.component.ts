@@ -11,6 +11,13 @@ export class MyworksComponent implements OnInit {
   constructor() { }
   myWorks = [
     {
+      imgUrl: "assets/telegram_clone.png",
+      liveUrl: "https://63012918f0b2c9758f040d87--transcendent-basbousa-1144ec.netlify.app/",
+      repoUrl: "https://github.com/Samandar02/telegram-clone",
+      title: "Telegram Clone",
+      description: "Telegram clone",
+    },
+    {
       imgUrl: "assets/haircutteam.png",
       liveUrl: "https://haircutteam.netlify.app/",
       repoUrl: "https://github.com/Samandar02/haircut",
