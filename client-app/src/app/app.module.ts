@@ -3,26 +3,18 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './components/app-routing.module';
 import { AppComponent } from './app.component';
+import { ComponentsModule } from './components/components.module';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { ContactComponent } from './contact/contact.component';
-import { MyworksComponent } from './myworks/myworks.component';
-import { SelectorComponent } from './selector/selector.component';
-import { SeparatePipe } from './pipes/separate.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    AboutMeComponent,
-    ContactComponent,
-    MyworksComponent,
-    SelectorComponent,
-    SeparatePipe,
+    NavbarComponent
   ],
   imports: [
+    ComponentsModule,
     BrowserModule,
     FormsModule,
     AppRoutingModule,

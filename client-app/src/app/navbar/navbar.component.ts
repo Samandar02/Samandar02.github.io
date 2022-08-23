@@ -1,5 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { Animations } from '../animations/animations';
+import { Animations } from 'src/app/animations/animations';
 
 @Component({
   selector: 'app-navbar',

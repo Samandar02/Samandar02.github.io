@@ -1,0 +1,22 @@
+<div class="container">
+    <p>Find me on</p>
+    <div class="context">
+        <img src="https://img.icons8.com/ios-filled/50/undefined/phone-disconnected.png" />
+        <p>+998 97 490-89-57</p>
+    </div><br>
+    <div class="context">
+        <img src="https://img.icons8.com/ios/50/undefined/mail.png" />
+        <p>uchqunovsamandar31@gmail.com</p>
+    </div>
+    <form class="contact-form" (submit)="sendEmail($event,nameVal)">
+        <div>
+            <label>Name:</label>
+            <input #nameVal type="text" name="user_name">
+            <label>Email:</label>
+            <input type="email" name="user_email">
+            <label>Message:</label>
+            <textarea name="message"></textarea>
+        </div>
+        <input type="submit" value="Send">
+    </form>
+</div>

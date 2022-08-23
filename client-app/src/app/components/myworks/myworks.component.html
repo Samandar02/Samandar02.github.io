@@ -1,0 +1,13 @@
+<div class="container">
+    <div *ngFor="let work of myWorks" class="content">
+        <img [src]="work.imgUrl" alt="">
+        <div class="about">
+            <div class="foot">
+                <a class="btn btn-gray" [class]="work.liveUrl == 'none'?'disabled':''" target="_blank" [href]="work.liveUrl">Live url</a>
+                <a class="btn btn-gray" target="_blank" [href]="work.repoUrl">Repositorie</a>
+            </div>
+            <div class="title"><h2>{{work.title}}</h2></div>
+            <div class="desc"><p>{{work.description}}</p></div>
+        </div>
+    </div>
+</div>

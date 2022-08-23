@@ -1,0 +1,65 @@
+@import '../../../styles/abstracts';
+.selector-nav{
+    padding-top: 18px;
+    ul{
+        padding: 5px 18px;
+        background-color: rgb(75, 75, 75);
+        border-radius: 12px 12px 0 0;
+        color: $almostWhite;
+        .inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include responsive(t){
+                font-size: smaller;
+            }
+        }
+        li{
+            
+            width: 100px;
+            height: 35px;
+            color: $almostWhite;
+            border: 1px solid $almostWhite;
+            margin: 3px 9px;
+            border-radius: 6px;
+            display: inline-block;
+            padding-top: 5px;
+            user-select: none;
+            cursor: pointer;
+            transition: all .3s ease-out;
+            &:hover{
+                color: rgb(75, 75, 75);
+                background-color: $almostWhite;
+                border: 1px solid $almostWhite;
+            }
+        }
+    }
+
+}
+.selector-content{
+    transform: all .3s;
+    ul{
+        transform: all .3s;
+        padding: 5px 18px;
+        border:3px solid rgb(75, 75, 75);
+        transform: translateY(-5px);
+        border-radius: 0 0 12px 12px;
+        li{
+            transform: all .3s;
+            margin: 8px;
+            @include responsive(t){
+                margin: 2px;
+            }
+            display: inline-block;
+            padding: 5px 10px;
+            user-select: none;
+            cursor: pointer;
+            border: 1px solid rgb(75, 75, 75);
+            border-radius: 6px;
+        }
+        .active{
+            background-color: rgb(75, 75, 75);
+            color: $almostWhite;
+        }
+    }
+}
