@@ -10,9 +10,10 @@
 </div>
 <div class="selector-content">
     <ul>
-        <li [@onActive]="item.isActive" [ngClass]="item.isActive?'active':''"
-            *ngFor="let item of data|separate:selected">
+        @for(item of data|separate:selected;track item.tool){
+        <li [@onActive]="item.isActive" [ngClass]="item.isActive?'active':''">
             {{item.tool}}
         </li>
+        }
     </ul>
 </div>
