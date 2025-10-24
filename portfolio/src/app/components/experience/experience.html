@@ -1,0 +1,39 @@
+<div class="flex gap-4">
+    @if(showTimeline()){
+    <div class="flex justify-center relative">
+        <div class="w-8 h-8 rounded-full animate-timeline bg-gray-400 top-10 absolute">
+        </div>
+        <div class="border-l-2 border-dashed h-[98%] border-gray-500 top-10 absolute -z-10"></div>
+    </div>
+    }
+
+
+    <div class="p-4 flex grow">
+        <div class="border rounded-xl border-gray-400 py-2 px-4 relative grow">
+            <div class="flex items-start">
+
+
+            </div>
+            <div class="flex gap-3">
+                <div class="d">
+                    <div
+                        class="w-[60px] h-[60px] flex overflow-hidden justify-center items-center rounded-full bg-gray-400">
+                        @if(experience().companyIcon != ''){
+                            <img width="80%" height="80%" class="scale-150" [src]="experience().companyIcon">
+                        }
+                        @else{
+                            <span class="text-center text-gray-600 font-bold text-sm">NO LOGO</span>
+                        }
+                    </div>
+                </div>
+                <div class="d">
+                    <div class="font-medium text-lg">{{experience().company}}</div>
+                    <div class="text-sm font-medium text-gray-500">{{experience().role}}</div>
+                    <div class="text-sm text-gray-500">{{experience().period}}</div>
+                </div>
+
+            </div>
+            <div [textRenderer]="experience().desc" class="text-gray-600 mt-2"></div>
+        </div>
+    </div>
+</div>

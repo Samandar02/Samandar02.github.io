@@ -1,0 +1,8 @@
+<div class="px-4">
+    <div class="font-medium mb-4">{{expertise().title}}</div>
+    <div class="flex flex-wrap gap-2 text-xs">
+        @for (chip of expertise().chips; track $index) {
+            <div class="px-2 py-1 font-mono font-smal bg-gray-300 rounded-full">{{chip}}</div>
+        }
+    </div>
+</div>

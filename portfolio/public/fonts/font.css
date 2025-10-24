@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'ic';
+  src:  url('ic.eot?zfww91');
+  src:  url('ic.eot?zfww91#iefix') format('embedded-opentype'),
+    url('ic.ttf?zfww91') format('truetype'),
+    url('ic.woff?zfww91') format('woff'),
+    url('ic.svg?zfww91#ic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ic' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: x-large;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-lg:before {
+  content: "\e904";
+}
+.ic-tg:before {
+  content: "\e900";
+}
+.ic-gm:before {
+  content: "\e901";
+}
+.ic-sof:before {
+  content: "\e902";
+}
+.ic-lc:before {
+  content: "\e903";
+}
+.ic-dl:before {
+  content: "\e905";
+}
+.ic-gh:before {
+  content: "\e906";
+}
+.ic-in:before {
+  content: "\e907";
+}
+.ic-moon:before {
+  content: "\e908";
+}

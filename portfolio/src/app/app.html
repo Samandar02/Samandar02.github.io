@@ -1,0 +1,68 @@
+<app-navbar />
+<app-hero />
+<app-perlin-noise />
+<app-section title="Expertise">
+    <app-expertise />
+</app-section>
+
+<app-section title="Experience">
+    <div class="flex items-stretch px-[15%] flex-col">
+        @for (item of experience; track $index) {
+        <app-experience [class]="$first?'animate-timeline':''" [experience]="item" />
+        }
+    </div>
+
+</app-section>
+<app-section title="Education">
+    <div class="flex items-stretch px-[15%] flex-col">
+        <app-experience [showTimeline]="false" [experience]="education" />
+    </div>
+</app-section>
+<app-section title="Contacts">
+    <div class="flex flex-col items-center">
+        <div class="text-2xl font-medium mb-8">Let's build something that change the universe</div>
+        <div class="text-gray-500 mb-4">Ready to start a new project with me?</div>
+        <div class="self-stretch grid grid-cols-2">
+            <div class="">
+                <div class="font-medium text-lg">Send message</div>
+                <div class="flex flex-col p-4 gap-4">
+                    <div class="flex gap-4">
+                        <input class="px-3 py-1 outline-0 border w-full border-gray-300 rounded-md" placeholder="Name"
+                            type="text">
+                        <input class="px-3 py-1 outline-0 border w-full border-gray-300 rounded-md" placeholder="Email"
+                            type="text">
+                    </div>
+                    <div class="grow">
+                        <textarea class="outline-0 rounded-md border border-gray-300 w-full h-[150px]"
+                            placeholder="Message" name="" id=""></textarea>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="border border-black inline-block rounded-md px-2 py-1">Send</div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="font-medium text-lg">Or contact directly</div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="flex items-center gap-3">
+                        <i class="ic-gm"></i>
+                        <div>
+                            <div class="font-medium text-lg">Gmail</div>
+                            <div class="text-gray-500">u.samandex.dev</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="ic-tg"></i>
+                        <div>
+                            <div class="font-medium text-lg">Telegram</div>
+                            <div class="text-gray-500">@USamandarB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-section>
+<div class="bg-gray-400 p-2">
+    <div class="text-white text-right">© 2025  - All Rights Reserved</div>
+</div>
